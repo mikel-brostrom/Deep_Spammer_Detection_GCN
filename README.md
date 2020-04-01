@@ -21,9 +21,9 @@ Node features are extracted by convolution operators that aggregates node featur
 <p align="center"> 
 <img src="graph_conv.png">
   
-  (image source: https://arxiv.org/pdf/1711.08920.pdf)
-</p>
 
+</p>
+                                                      (image source: https://arxiv.org/pdf/1711.08920.pdf)
 
 ## The data
 
