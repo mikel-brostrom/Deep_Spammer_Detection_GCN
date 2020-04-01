@@ -6,7 +6,7 @@ A  large  amount  of  data  in  practical  tasks  naturally  comes in the form o
 
 ### The input data
 
-A graph convolutional network takes a graph G =(V, E), as input, represented in the following way:
+A graph convolutional network takes a graph G = (V, E), as input, represented in the following way:
 
 * Node features: N x D where N is the number of nodes and D is the number of features
 * Matrix representation: 2 x L where L is the number of edges in the graph
