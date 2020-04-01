@@ -19,7 +19,9 @@ A graph convolutional network takes a graph G = (V, E), as input, represented in
 Node features are extracted by convolution operators that aggregates node features in local neighborhoods weighted by a trainable, continuous kernel function. An example of spatial aggregation in geometric deep learning with trainable, continuous kernel functions for image graph representations can be seen below:
 
 ![](graph_conv.png)
-
+<p align="center"> 
+<img src="graph_conv.png">
+</p>
 (image source: https://arxiv.org/pdf/1711.08920.pdf)
 
 ## The data
