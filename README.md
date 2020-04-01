@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A  large  amount  of  data  in  practical  tasks  naturally  comes in the form of irregular, non-euclidean structures; e.g. graph data or meshes. Many real-life representations such as social networks, maps, molecular structures take this form. GCNs  transfers  the  high  performance  of  traditional convolutional neural networks to this kind of data. This set of methods got recently brought together under the term geometric  deep  learning. 
+A  large  amount  of  data  in  practical  tasks  naturally  comes in the form of irregular, non-euclidean structures; e.g. graph data or meshes. Many real-life representations such as social networks, maps, molecular structures take this form. GCNs  transfers  the  high  performance  of  traditional convolutional neural networks to this kind of data. These set of methods got recently brought together under the term geometric deep learning. 
 
 ### The input data
 
@@ -28,10 +28,10 @@ Spammer have the following similarities:
 
 * They have more edges (connections to different computers)
 * A high edge value associated to the nodes they are connected to (depicting the amount of bytes they transfer via email to their neighbours)
-* Each spammer has an associated trust value which is given by the server. If the node is more likely to be a spammer then the value will be closer to 1.
+* Each spammer has an high associated node value (depicting the level of certainty that it is a spammer). If the node is more likely to be a spammer then the value will be closer to 1.
 
 Non-spammers have the opposite characteristics
 
 ## The network
 
-We use a stack of spline convolutions with exponential ReLU and dropout for regulaization. The metric used is nll_loss which can be used for classification of arbitrary classes.
+We use a stack of spline convolutions with exponential ReLU and dropout for regularization. The metric used is nll_loss which can be used for classification of arbitrary classes.
