@@ -20,11 +20,11 @@ def data_loader():
             # more likely to have many connections (a maximum of 1/4 of the nodes in the graph)
             nr_nbrs = int(random.random() * (nr_nodes / 4))
             counter = counter + nr_nbrs
-            # more likely to have sent many bytes
-            node_features.append((random.random() + 1))
             # if the node is more likely to be a spammer then
             # the value will be closer to 1. The same value is
             # used for all the edges to the node's neighbours
+            node_features.append((random.random() + 1))
+            # more likely to have sent many bytes
             edge_features += [(random.random() + 3) / 4.] * nr_nbrs
             # associate a label
             labels.append(1)
@@ -35,8 +35,9 @@ def data_loader():
             nr_nbrs = int(random.random() * 10)
             counter = counter + nr_nbrs
             print(node, nr_nbrs)
-            # associate more bytes and random bytes
-            node_features.append(random.random())
+            # less likely to be a spammer
+            node_features.append(random.random() / 2)
+            # more likely to have sent less bytes
             edge_features += [random.random()] * nr_nbrs
             labels.append(0)
 
