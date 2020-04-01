@@ -1,5 +1,7 @@
 # Deep_Spammer_Detection_GCN
 
+The idea with this project is to classify whether the nodes in a graph are spammers or not.
+
 ## Introduction
 
 A  large  amount  of  data  in  practical  tasks  naturally  comes in the form of irregular, non-euclidean structures; e.g. graph data or meshes. Many real-life representations such as social networks, maps, molecular structures take this form. GCNs  transfers  the  high  performance  of  traditional convolutional neural networks to this kind of data. These set of methods got recently brought together under the term geometric deep learning. 
