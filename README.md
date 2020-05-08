@@ -38,7 +38,7 @@ Python 3.7 or later with
 
 make sure that they work with your PyTorch version
                                                       
-### The generated data
+## The generated data
 
 We generate a graph that tries to depict an internet network with spammer nodes and non-spammer nodes.
 
@@ -61,6 +61,7 @@ python3 train.py
 Training output example:
 
 ```bash
+...
 Epoch: 024, train_loss: 0.185, test_loss:0.192, train_acc: 0.99, test_acc: 0.95
 Epoch: 025, train_loss: 0.138, test_loss:0.151, train_acc: 0.99, test_acc: 0.95
 Epoch: 026, train_loss: 0.099, test_loss:0.117, train_acc: 0.99, test_acc: 0.95
@@ -79,6 +80,7 @@ Epoch: 038, train_loss: 0.000, test_loss:0.001, train_acc: 1.00, test_acc: 1.00
 Epoch: 039, train_loss: 0.000, test_loss:0.001, train_acc: 1.00, test_acc: 1.00
 Epoch: 040, train_loss: 0.000, test_loss:0.001, train_acc: 1.00, test_acc: 1.00
 Epoch: 041, train_loss: 0.000, test_loss:0.000, train_acc: 1.00, test_acc: 1.00
+...
 ```
 
 ### The network
